@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .com-efeito:hover{
+            background: blue;
+            color: white;
+            
+            transition: 2s;
+        }
+
+        .com-efeito{
+            background-color: white;
+            color: black;
+            width: 100px;
+            height: 50px;
+            font-size: 16px;
+            transition: 2s;
+            border: 2px solid yellow;
+        } 
+        .com-efeito:active{
+            background-color: black;
+            transition: 1s;
+        }
+        .com-efeitO:focus{
+            background: gray;
+            color: white;
+            border: 2x solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <button class="com-efeito">Botão</button>
+    <div class="com-efeito">Div Com efeito</div>
+    <input type="text" class="com-efeito">
+</body>
+</html>
